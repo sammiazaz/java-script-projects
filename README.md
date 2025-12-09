@@ -1,71 +1,71 @@
 # 🚀 JavaScript Beginner Projects
 
 Welcome to my JavaScript learning journey!  
-This repository contains all the small–small projects I’m building while learning **HTML, CSS, and JavaScript**.  
-Each folder has its own mini-project with code, logic, and sometimes small notes.
+This repository contains the mini-projects I'm building while practicing **HTML, CSS, and JavaScript**.  
+Each folder is a separate project with simple, clean code.
 
 ---
 
-## 📁 Project Folders
+## 📁 Projects Included
 
-### **1️⃣ 10.1_projects/**
-Beginner-level JavaScript practice projects.  
-These include simple tasks to understand:
-- Variables
-- Loops
-- Functions
-- DOM basics
-- Events
+### **1️⃣ 10.1_projects → Color Changer 🎨**
+A simple project to practice:
+- DOM selection  
+- Event listeners  
+- Changing background colors  
+- Working with buttons  
 
-### **2️⃣ 10.2_projects/**
-More intermediate JavaScript projects where I try:
-- Interactive DOM manipulation  
-- Mini apps  
-- More complex logic  
-- Better UI using CSS  
+**Features:**
+- Click a button → background color changes  
+- Random color generator (if added)  
+- Very beginner-friendly  
+
+---
+
+### **2️⃣ 10.2_projects → BMI Calculator ⚖️**
+A basic BMI calculator made to understand:
+- Taking input from user  
+- Performing calculations  
+- Showing results in the DOM  
+- Conditional statements in JS  
+
+**Features:**
+- User enters height + weight  
+- BMI is calculated  
+- Shows BMI category (Underweight, Normal, Overweight, etc.)  
 
 ---
 
 ## 🎯 Learning Goals
-- Improve core JavaScript fundamentals  
-- Understand how the browser DOM works  
-- Build small projects and learn by doing  
-- Practice clean and readable code  
-- Push projects regularly on GitHub  
+- Improve core JavaScript concepts  
+- Understand how to handle user input  
+- Update HTML dynamically using JS  
+- Build small working apps  
+- Practice Git & GitHub workflow  
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Tech | Used For |
-|------|----------|
-| **HTML** | Structure |
+| Technology | Purpose |
+|-----------|---------|
+| **HTML** | Basic structure |
 | **CSS** | Styling UI |
-| **JavaScript** | Logic + Interactivity |
-| **Git & GitHub** | Version control |
+| **JavaScript** | App logic & interactivity |
+| **GitHub** | Version control |
 
 ---
 
-## 📚 What I’ve Learned So Far
-- Creating functions and reusing code  
-- Handling user input  
-- Updating HTML using JavaScript  
-- Adding click events  
-- Basic error handling  
-- GitHub workflow  
-
----
-
-## 🚧 Upcoming Improvements
-- Add project demos (GIFs or screenshots)  
-- Host projects using GitHub Pages  
-- Add detailed notes inside each project folder  
+## 🚧 Future Improvements
+- Host projects with GitHub Pages  
+- Add screenshots / live demo links  
+- Write project-wise README files inside each folder  
 
 ---
 
 ## 🤝 Feedback
-If you have suggestions or want to recommend beginner-friendly JS project ideas — feel free to share!
+If you have suggestions or project ideas I should try next, feel free to share!
 
 ---
 
-### ⭐ If you like these projects, consider giving the repo a star!
+### ⭐ If you like these projects, don't forget to star the repo!
