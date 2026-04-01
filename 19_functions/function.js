@@ -4,3 +4,8 @@ function sum (a,b){
 }
 
 console.log(sum(5,8));
+
+// normal function 
+function add(a, b) {
+    return a + b;
+}
