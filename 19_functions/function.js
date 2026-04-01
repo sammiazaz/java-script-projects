@@ -9,3 +9,8 @@ console.log(sum(5,8));
 function add(a, b) {
     return a + b;
 }
+
+// arrow function 
+const add = (a, b) => {
+    return a + b;
+};
