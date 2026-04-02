@@ -42,4 +42,3 @@ function ArrayinFunction(array){
     return array[0]
 }
 console.log(ArrayinFunction(arr));
- 
