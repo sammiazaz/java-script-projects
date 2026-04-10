@@ -9,7 +9,7 @@
 
 
 
-// scope level and mini hosting ------------------
+// scope level and mini hosting -----------------
 function one(){
     const username = "sammi"
 
@@ -22,3 +22,5 @@ function one(){
     
 }
 one()
+
+// done
