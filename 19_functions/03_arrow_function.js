@@ -6,7 +6,7 @@
 // console.log( addtwo(5, 8));
 
 
-// implicit statement
+// implicit statement  
 const addtwo = (num1, num2) => num1 + num2;
 console.log(addtwo(5,5));
 
