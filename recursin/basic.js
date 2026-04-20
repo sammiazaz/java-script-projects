@@ -13,4 +13,4 @@ function fibonacci(n) {
 }
 
 console.log("factorial(5) =", factorial(5));
-console.log("fibonacci(7) =", fibonacci(7));
+// console.log("fibonacci(7) =", fibonacci(7));
