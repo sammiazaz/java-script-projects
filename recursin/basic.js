@@ -12,5 +12,5 @@ function fibonacci(n) {
   return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
-console.log("factorial(5) =", factorial(5));
+// console.log("factorial(5) =", factorial(5));
 // console.log("fibonacci(7) =", fibonacci(7));
