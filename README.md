@@ -10,7 +10,7 @@ Each folder is a separate project with simple, clean code.
 
 ### **1️⃣ 10.1_projects → Color Changer 🎨**
 A simple project to practice:
-- DOM selection  
+- DOM selection   
 - Event listeners  
 - Changing background colors  
 - Working with buttons  
