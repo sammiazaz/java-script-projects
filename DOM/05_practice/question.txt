@@ -1,0 +1,33 @@
+Here is the list of theoretical questions and practical tasks performed during the DOM manipulation practice section of the tutorial:
+
+**Theoretical Questions Discussed:**
+*   **What is the DOM**, and how does it represent the HTML structure as a tree?
+*   What exactly are the nodes in a DOM tree (e.g., element node, text node, comment node)?
+*   What is the difference between an **element node** and a **text node**?
+*   Inspect the provided HTML in the browser and identify each node.
+*   What is the difference between `getElementById` and `querySelector`?
+*   What does `getElementsByClassName` return? Is it an array? (Answered as returning an HTML Collection/NodeList, not a standard array)
+*   What is the difference between `innerText`, `textContent`, and `innerHTML`?
+*   When should you use `textContent` instead of `innerText`?
+*   How do you get the `src` attribute of an image using JavaScript?
+*   What does `setAttribute` do?
+*   What does `createElement` do, and what type of data does it return?
+*   What is the difference between `appendChild` (adds to the end) and `prepend` (adds to the beginning)?
+*   Can you remove an element using `removeChild`?
+*   How do you change the background color of an element using JavaScript?
+*   What is the difference between `classList.add` and `classList.toggle`?
+
+**Practical Tasks Performed:**
+*   Use `querySelectorAll` to select all buttons containing the class `.buy-now`.
+*   **Task 1:** Select the heading of a page by its ID and change its text to "Welcome to Sheryians".
+*   **Task 2:** Select all `li` (list item) elements and print their text content using a loop (like `forEach` or a `for` loop).
+*   **Task 3:** Select a paragraph and replace its HTML content (using `innerHTML`) to make it bold and read "Updated by JavaScript".
+*   Select a link (`a` tag) and update its `href` attribute to a new URL.
+*   Add a `title` attribute to a `div` element dynamically using JavaScript.
+*   Remove the `disabled` attribute from a button to make it clickable.
+*   Create a new list item, add text to it, and append it to the end of an existing `ul` (unordered list).
+*   **Task 8:** Create a new image element, set a placeholder source for it, and add it to the top (using `prepend`) of a specific `div`.
+*   **Task 9:** Select the very first item in a list and remove it from the DOM.
+*   **Task 10:** Add a specific `highlight` class to every *even* item in a list using CSS selectors like `nth-child(2n)`.
+*   **Task 11:** Toggle an `active` class on a button when it is clicked. *(Note: The instructor briefly skipped coding this task initially because it required Event Listeners, which was the next topic).*
+*   **Task 12:** Select all paragraph (`p`) elements and set their font size to 18 pixels using the `.style` property.
