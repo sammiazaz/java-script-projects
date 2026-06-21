@@ -7,7 +7,7 @@
 4. [The Event Object](#the-event-object)
 5. [Advanced Concepts](#advanced-concepts)
 6. [Practical Examples](#practical-examples)
-
+ 
 ---
 
 ## Introduction
