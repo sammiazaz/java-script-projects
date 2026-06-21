@@ -1,0 +1,23 @@
+Here is the list of topics covered and practical tasks performed in the **Events and Event Handling** part of the tutorial:
+
+**Topics Covered:**
+*   **Introduction to Events & Event Listeners:** Understanding that events are actions performed on the browser (like clicks) and listeners are the functions that execute in reaction to those actions.
+*   **Adding and Removing Listeners:** How to attach an event using `addEventListener` and remove it using `removeEventListener` (which requires passing the exact same function reference).
+*   **Common Events:** Exploring widely-used events such as `click`, `dblclick`, `input`, `change`, `submit`, `mouseover`, `mouseout`, `mousemove`, `keydown`, and `keyup`.
+*   **The Event Object:** Accessing details about the event using the event object (often passed as `details`, `e`, or `evt`), which contains useful properties like `target`, `type`, `clientX`, `clientY`, and input `data`.
+*   **Preventing Default Behavior:** Using `preventDefault()` to stop the default browser action, such as stopping a page from reloading when a form is submitted.
+*   **Event Bubbling:** Understanding how an event starts at the target element and propagates upwards to its parent elements (the default behavior).
+*   **Event Capturing:** Learning the reverse of bubbling, where an event propagates downwards from the top parent to the target element, activated by adding `true` as the third argument in the event listener.
+*   **Event Delegation:** The practice of attaching a single event listener to a parent element (like a `ul`) to efficiently handle events for multiple nested child elements (like `li` tags).
+
+**Tasks Performed:**
+*   **Color Changer:** Change an `h1` element's color to red on a single `click` and change a `p` (paragraph) element's color to yellow on a `dblclick`.
+*   **Live Input Tracker:** Use the `input` event to capture and print characters exactly as they are typed, using logic to handle backspaces by checking if the input data is `null`.
+*   **Dropdown Selection Updater:** Use the `change` event on a `<select>` dropdown to dynamically update an `h3` heading to read "Device Selected: [Device Name]".
+*   **Keyboard Press Display:** Attach a `keydown` event listener to the `window` to detect keystrokes and dynamically display the exact key pressed in large text in the center of the screen, handling the "Space" key uniquely.
+*   **Custom File Upload Button:** Hide the default HTML file input, trigger it via a customized custom `div` button, and display the uploaded file's name inside the button using the `change` event.
+*   **Dynamic Profile Card Generator:** Intercept a form submission, use `preventDefault` to stop the page from reloading, extract input values (name, occupation, image URL), and use DOM manipulation to create and append a new user profile card to the screen.
+*   **Hover Color Changer:** Change a `div` element's background color to yellow when the mouse hovers over it using `mouseover`, and revert it back to red using `mouseout`.
+*   **Mouse Follower:** Make a visual element continually follow the mouse cursor across the screen by attaching a `mousemove` event to the `window` and mapping the `clientX` and `clientY` coordinates to the element's CSS `top` and `left` properties.
+*   **List Strike-through:** Implement **Event Delegation** by applying a `line-through` text decoration effect to list items (`li`) using a single `click` listener attached to the parent `ul`.
+*   **Live Character Counter:** Track the length of user text dynamically, subtract it from a limit of 20, and turn the counter text red if the user types more than 20 characters.
