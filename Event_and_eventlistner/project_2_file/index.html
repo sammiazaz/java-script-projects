@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        html,body{
+            width: 100%;
+            height: 100%;
+        }
+        input{
+            display: none;  /* this willl remove upload file button*/
+        } 
+        #main{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #inp-btn{
+            padding: 12px 22px;
+            background-color: beige;
+            color: brown;
+            border-radius: 5%;
+            border: none;
+            cursor: pointer;
+        }
+        #inp-btn:hover{
+            background-color: brown;
+            color: antiquewhite;
+        }
+
+        #file-list{
+        text-align: center;
+        justify-content: center;
+}
+
+        #file-list p{
+            margin: 5px 0;
+            color: brown;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="main">
+        <input id= "inp-file" type="file">  
+        <button id="inp-btn">chose file</button> <!--  // we create button to customize that replace input file inbuilt button -->
+    </div> 
+    <div id="file-list"></div>
+    <script src="script.js"></script>
+</body>
+</html>
